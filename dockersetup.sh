@@ -3,8 +3,10 @@
 #install git 
 sudo yum -y git
 
-#removing older versions of docker 
+#installng nano 
+sudo yum install -y nano
 
+#removing older versions of docker 
 sudo yum remove docker \
                   docker-client \
                   docker-client-latest \
@@ -53,6 +55,9 @@ sudo docker run hello-world
 #add user to docker group 
 
 sudo usermod -aG docker "$1"
+
+
+
 
 
 

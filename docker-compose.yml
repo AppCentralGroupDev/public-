@@ -53,7 +53,7 @@ services:
   tracking_server:
     restart: always
     build: ./mlflow
-    image: gorcenski/mlflow-scratch
+    image: custom/mlflow-scratch
     container_name: mlflow_server
     ports:
       - "${MLFLOW_PORT}:5000"
