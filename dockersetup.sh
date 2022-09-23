@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install git 
-sudo yum -y git
+sudo yum install -y git
 
 #installng nano 
 sudo yum install -y nano
@@ -41,6 +41,10 @@ sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 #start docker 
 
 sudo systemctl start docker
+
+# enable docke ron boot
+
+sudo systemctl enable docker
 
 # verify docker is running 
 
