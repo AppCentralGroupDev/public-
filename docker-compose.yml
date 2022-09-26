@@ -70,12 +70,54 @@ services:
       --host 0.0.0.0
       --default-artifact-root s3://${MLFLOW_BUCKET_NAME}/      
 
+  promotheus:
+      image: prom/prometheus:v2.26.0
+      ports:
+        - 9090:9090
+      volumes:
+        - ./metrics/prometheus.yml:/etc/prometheus/prometheus.yml
+      networks:
+        - back-tier
+      restart: always
+
+  grafana:
+    image: grafana/grafana:7.5.3
+    ports:
+      - 3000:3000
+    volumes:
+      - ./metrics/provisioning:/etc/grafana/provisioning
+      - ./metrics/dashboards:/var/lib/grafana/dashboards
+      - grafana_data:/var/lib/grafana
+      - prometheus_data:/prometheus
+    networks:
+      - back-tier
+      - front-tier
+    restart: always
+     
+  app:
+    build:
+      context: app
+    ports:
+      - 5050:5050
+    volumes:
+      - ./app_data:/app/app_data
+      # - ./model.pkl:/app/model.pkl
+      # - ./histogram.prom:/app/histogram.prom
+    networks:
+      - back-tier
+      - front-tier
+    
+
 volumes:
   db_data:
   minio_data:
+  prometheus_data: 
+  grafana_data:
 
 networks:
   frontend:
     driver: bridge
   backend:
     driver: bridge
+  front-tier:
+  back-tier:

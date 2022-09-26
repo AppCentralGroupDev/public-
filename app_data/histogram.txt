@@ -1,0 +1,185 @@
+# HELP feature_0_value_baseline Baseline values for feature: age
+# TYPE feature_0_value_baseline histogram
+feature_0_value_baseline_bucket{le="-0.1072256316073538"} 3.0
+feature_0_value_baseline_bucket{le="-0.08543040090123727"} 18.0
+feature_0_value_baseline_bucket{le="-0.06363517019512074"} 38.0
+feature_0_value_baseline_bucket{le="-0.04183993948900422"} 84.0
+feature_0_value_baseline_bucket{le="-0.020044708782887694"} 116.0
+feature_0_value_baseline_bucket{le="0.0017505219232288316"} 158.0
+feature_0_value_baseline_bucket{le="0.023545752629345357"} 219.0
+feature_0_value_baseline_bucket{le="0.04534098333546188"} 270.0
+feature_0_value_baseline_bucket{le="0.06713621404157841"} 311.0
+feature_0_value_baseline_bucket{le="0.08893144474769493"} 327.0
+feature_0_value_baseline_bucket{le="0.11072667545381144"} 331.0
+feature_0_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_1_value_baseline_total Baseline values for feature: sex
+# TYPE feature_1_value_baseline_total counter
+feature_1_value_baseline_total{bin="-0.044641636506989144"} 174.0
+feature_1_value_baseline_total{bin="0.05068011873981862"} 157.0
+# HELP feature_2_value_baseline Baseline values for feature: bmi
+# TYPE feature_2_value_baseline histogram
+feature_2_value_baseline_bucket{le="-0.09027529589850945"} 1.0
+feature_2_value_baseline_bucket{le="-0.07164454433571277"} 13.0
+feature_2_value_baseline_bucket{le="-0.053013792772916096"} 42.0
+feature_2_value_baseline_bucket{le="-0.03438304121011942"} 81.0
+feature_2_value_baseline_bucket{le="-0.01575228964732274"} 136.0
+feature_2_value_baseline_bucket{le="0.0028784619154739316"} 187.0
+feature_2_value_baseline_bucket{le="0.021509213478270617"} 231.0
+feature_2_value_baseline_bucket{le="0.0401399650410673"} 258.0
+feature_2_value_baseline_bucket{le="0.05877071660386397"} 287.0
+feature_2_value_baseline_bucket{le="0.07740146816666064"} 310.0
+feature_2_value_baseline_bucket{le="0.09603221972945732"} 320.0
+feature_2_value_baseline_bucket{le="0.11466297129225402"} 325.0
+feature_2_value_baseline_bucket{le="0.1332937228550507"} 328.0
+feature_2_value_baseline_bucket{le="0.15192447441784734"} 329.0
+feature_2_value_baseline_bucket{le="0.17055522598064407"} 331.0
+feature_2_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_3_value_baseline Baseline values for feature: bp
+# TYPE feature_3_value_baseline histogram
+feature_3_value_baseline_bucket{le="-0.11239880254408448"} 1.0
+feature_3_value_baseline_bucket{le="-0.09359553952213852"} 4.0
+feature_3_value_baseline_bucket{le="-0.07479227650019254"} 12.0
+feature_3_value_baseline_bucket{le="-0.055989013478246585"} 37.0
+feature_3_value_baseline_bucket{le="-0.037185750456300626"} 73.0
+feature_3_value_baseline_bucket{le="-0.018382487434354666"} 132.0
+feature_3_value_baseline_bucket{le="0.0004207755875913072"} 180.0
+feature_3_value_baseline_bucket{le="0.019224038609537267"} 212.0
+feature_3_value_baseline_bucket{le="0.038027301631483226"} 249.0
+feature_3_value_baseline_bucket{le="0.056830564653429186"} 284.0
+feature_3_value_baseline_bucket{le="0.07563382767537515"} 309.0
+feature_3_value_baseline_bucket{le="0.0944370906973211"} 321.0
+feature_3_value_baseline_bucket{le="0.11324035371926709"} 329.0
+feature_3_value_baseline_bucket{le="0.13204361674121307"} 331.0
+feature_3_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_4_value_baseline Baseline values for feature: s1
+# TYPE feature_4_value_baseline histogram
+feature_4_value_baseline_bucket{le="-0.10476542418529532"} 1.0
+feature_4_value_baseline_bucket{le="-0.08752014836250793"} 5.0
+feature_4_value_baseline_bucket{le="-0.07027487253972055"} 14.0
+feature_4_value_baseline_bucket{le="-0.053029596716933164"} 33.0
+feature_4_value_baseline_bucket{le="-0.03578432089414578"} 76.0
+feature_4_value_baseline_bucket{le="-0.018539045071358395"} 111.0
+feature_4_value_baseline_bucket{le="-0.0012937692485710112"} 176.0
+feature_4_value_baseline_bucket{le="0.015951506574216373"} 220.0
+feature_4_value_baseline_bucket{le="0.03319678239700376"} 257.0
+feature_4_value_baseline_bucket{le="0.050442058219791155"} 283.0
+feature_4_value_baseline_bucket{le="0.06768733404257853"} 300.0
+feature_4_value_baseline_bucket{le="0.0849326098653659"} 312.0
+feature_4_value_baseline_bucket{le="0.1021778856881533"} 320.0
+feature_4_value_baseline_bucket{le="0.11942316151094069"} 323.0
+feature_4_value_baseline_bucket{le="0.13666843733372808"} 329.0
+feature_4_value_baseline_bucket{le="0.15391371315651542"} 331.0
+feature_4_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_5_value_baseline Baseline values for feature: s2
+# TYPE feature_5_value_baseline histogram
+feature_5_value_baseline_bucket{le="-0.11279472982329314"} 1.0
+feature_5_value_baseline_bucket{le="-0.09639563932431486"} 3.0
+feature_5_value_baseline_bucket{le="-0.07999654882533658"} 9.0
+feature_5_value_baseline_bucket{le="-0.06359745832635831"} 24.0
+feature_5_value_baseline_bucket{le="-0.04719836782738003"} 49.0
+feature_5_value_baseline_bucket{le="-0.03079927732840175"} 82.0
+feature_5_value_baseline_bucket{le="-0.014400186829423484"} 133.0
+feature_5_value_baseline_bucket{le="0.001998903669554797"} 180.0
+feature_5_value_baseline_bucket{le="0.018397994168533077"} 226.0
+feature_5_value_baseline_bucket{le="0.03479708466751136"} 258.0
+feature_5_value_baseline_bucket{le="0.05119617516648964"} 290.0
+feature_5_value_baseline_bucket{le="0.06759526566546792"} 303.0
+feature_5_value_baseline_bucket{le="0.08399435616444617"} 313.0
+feature_5_value_baseline_bucket{le="0.10039344666342445"} 320.0
+feature_5_value_baseline_bucket{le="0.11679253716240273"} 324.0
+feature_5_value_baseline_bucket{le="0.133191627661381"} 329.0
+feature_5_value_baseline_bucket{le="0.1495907181603593"} 329.0
+feature_5_value_baseline_bucket{le="0.16598980865933755"} 330.0
+feature_5_value_baseline_bucket{le="0.18238889915831585"} 330.0
+feature_5_value_baseline_bucket{le="0.19878798965729408"} 331.0
+feature_5_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_6_value_baseline Baseline values for feature: s3
+# TYPE feature_6_value_baseline histogram
+feature_6_value_baseline_bucket{le="-0.09126213710515514"} 1.0
+feature_6_value_baseline_bucket{le="-0.07423456226125304"} 5.0
+feature_6_value_baseline_bucket{le="-0.05720698741735093"} 30.0
+feature_6_value_baseline_bucket{le="-0.04017941257344883"} 62.0
+feature_6_value_baseline_bucket{le="-0.023151837729546723"} 112.0
+feature_6_value_baseline_bucket{le="-0.0061242628856446185"} 170.0
+feature_6_value_baseline_bucket{le="0.010903311958257486"} 208.0
+feature_6_value_baseline_bucket{le="0.02793088680215959"} 249.0
+feature_6_value_baseline_bucket{le="0.044958461646061695"} 275.0
+feature_6_value_baseline_bucket{le="0.0619860364899638"} 292.0
+feature_6_value_baseline_bucket{le="0.0790136113338659"} 317.0
+feature_6_value_baseline_bucket{le="0.09604118617776801"} 319.0
+feature_6_value_baseline_bucket{le="0.11306876102167011"} 321.0
+feature_6_value_baseline_bucket{le="0.13009633586557223"} 326.0
+feature_6_value_baseline_bucket{le="0.14712391070947434"} 328.0
+feature_6_value_baseline_bucket{le="0.16415148555337644"} 329.0
+feature_6_value_baseline_bucket{le="0.18117906039727852"} 331.0
+feature_6_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_7_value_baseline Baseline values for feature: s4
+# TYPE feature_7_value_baseline histogram
+feature_7_value_baseline_bucket{le="-0.0763945037500033"} 19.0
+feature_7_value_baseline_bucket{le="-0.05626920013383392"} 20.0
+feature_7_value_baseline_bucket{le="-0.03614389651766454"} 119.0
+feature_7_value_baseline_bucket{le="-0.016018592901495154"} 124.0
+feature_7_value_baseline_bucket{le="0.004106710714674222"} 219.0
+feature_7_value_baseline_bucket{le="0.0242320143308436"} 228.0
+feature_7_value_baseline_bucket{le="0.04435731794701299"} 287.0
+feature_7_value_baseline_bucket{le="0.06448262156318237"} 290.0
+feature_7_value_baseline_bucket{le="0.08460792517935174"} 317.0
+feature_7_value_baseline_bucket{le="0.10473322879552112"} 319.0
+feature_7_value_baseline_bucket{le="0.1248585324116905"} 327.0
+feature_7_value_baseline_bucket{le="0.14498383602785986"} 328.0
+feature_7_value_baseline_bucket{le="0.1651091396440293"} 330.0
+feature_7_value_baseline_bucket{le="0.18523444326019867"} 331.0
+feature_7_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_8_value_baseline Baseline values for feature: s5
+# TYPE feature_8_value_baseline histogram
+feature_8_value_baseline_bucket{le="-0.12609712083330468"} 1.0
+feature_8_value_baseline_bucket{le="-0.10878416064962346"} 1.0
+feature_8_value_baseline_bucket{le="-0.09147120046594225"} 5.0
+feature_8_value_baseline_bucket{le="-0.07415824028226103"} 11.0
+feature_8_value_baseline_bucket{le="-0.05684528009857981"} 35.0
+feature_8_value_baseline_bucket{le="-0.039532319914898584"} 66.0
+feature_8_value_baseline_bucket{le="-0.022219359731217372"} 114.0
+feature_8_value_baseline_bucket{le="-0.004906399547536161"} 159.0
+feature_8_value_baseline_bucket{le="0.012406560636145064"} 197.0
+feature_8_value_baseline_bucket{le="0.02971952081982629"} 239.0
+feature_8_value_baseline_bucket{le="0.047032481003507515"} 281.0
+feature_8_value_baseline_bucket{le="0.06434544118718871"} 301.0
+feature_8_value_baseline_bucket{le="0.08165840137086994"} 316.0
+feature_8_value_baseline_bucket{le="0.09897136155455116"} 322.0
+feature_8_value_baseline_bucket{le="0.11628432173823236"} 324.0
+feature_8_value_baseline_bucket{le="0.13359728192191356"} 331.0
+feature_8_value_baseline_bucket{le="+Inf"} 331.0
+# HELP feature_9_value_baseline Baseline values for feature: s6
+# TYPE feature_9_value_baseline histogram
+feature_9_value_baseline_bucket{le="-0.13776722569000302"} 1.0
+feature_9_value_baseline_bucket{le="-0.12068103466631089"} 3.0
+feature_9_value_baseline_bucket{le="-0.10359484364261876"} 5.0
+feature_9_value_baseline_bucket{le="-0.08650865261892662"} 10.0
+feature_9_value_baseline_bucket{le="-0.06942246159523449"} 20.0
+feature_9_value_baseline_bucket{le="-0.05233627057154236"} 39.0
+feature_9_value_baseline_bucket{le="-0.03525007954785023"} 73.0
+feature_9_value_baseline_bucket{le="-0.018163888524158095"} 102.0
+feature_9_value_baseline_bucket{le="-0.0010776975004659628"} 162.0
+feature_9_value_baseline_bucket{le="0.01600849352322617"} 215.0
+feature_9_value_baseline_bucket{le="0.0330946845469183"} 257.0
+feature_9_value_baseline_bucket{le="0.050180875570610434"} 289.0
+feature_9_value_baseline_bucket{le="0.06726706659430257"} 300.0
+feature_9_value_baseline_bucket{le="0.0843532576179947"} 316.0
+feature_9_value_baseline_bucket{le="0.10143944864168683"} 322.0
+feature_9_value_baseline_bucket{le="0.11852563966537896"} 326.0
+feature_9_value_baseline_bucket{le="0.13561183068907107"} 331.0
+feature_9_value_baseline_bucket{le="+Inf"} 331.0
+# HELP inference_value_baseline Baseline inference values for test set
+# TYPE inference_value_baseline histogram
+inference_value_baseline_bucket{le="55.39828735024928"} 1.0
+inference_value_baseline_bucket{le="83.27011688960114"} 14.0
+inference_value_baseline_bucket{le="111.141946428953"} 29.0
+inference_value_baseline_bucket{le="139.01377596830486"} 53.0
+inference_value_baseline_bucket{le="166.88560550765675"} 73.0
+inference_value_baseline_bucket{le="194.75743504700858"} 89.0
+inference_value_baseline_bucket{le="222.62926458636048"} 100.0
+inference_value_baseline_bucket{le="250.5010941257123"} 107.0
+inference_value_baseline_bucket{le="278.3729236650642"} 111.0
+inference_value_baseline_bucket{le="+Inf"} 111.0
+inference_value_baseline_count 111.0
+inference_value_baseline_sum 16378.301271886807
