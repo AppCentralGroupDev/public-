@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install git 
-sudo yum -y git
+sudo yum install -y git
 
 #installng nano 
 sudo yum install -y nano
